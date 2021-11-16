@@ -6,9 +6,9 @@
 				type="hidden"
 				/>
 		<field
-				name="company"
+				name="name"
 				type="text"
-				label="Naam"
+				label="name"
 				size="40"
 				class="inputbox"
 				default=""
@@ -24,11 +24,36 @@
                 <field
 				name="phone"
 				type="text"
-				label="Telefoonnummer"
+				label="phone number"
 				size="40"
 				class="inputbox"
 				default=""
 				/>
+                <field
+				name="country"
+				type="text"
+				label="country"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+                <field
+				name="address"
+				type="text"
+				label="address"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+                <field
+				name="zipcode"
+				type="text"
+				label="zipcode"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+
             
 	</fieldset>
 </form>
