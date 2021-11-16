@@ -7,7 +7,7 @@
     method="post" name="adminForm" id="adminForm">
     <div class="form-horizontal">
         <fieldset class="adminform">
-            <legend><?php echo JText::_('Company details'); ?></legend>
+            <legend><?php echo JText::_('Contact details'); ?></legend>
             <div class="row-fluid">
                 <div class="span6">
                     <?php 
@@ -19,6 +19,6 @@
             </div>
         </fieldset>
     </div>
-    <input type="hidden" name="task" value="company.edit" />
+    <input type="hidden" name="task" value="contact.edit" />
     <?php echo JHtml::_('form.token'); ?>
 </form>

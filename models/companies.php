@@ -11,7 +11,7 @@ class TwinsModelCompanies extends JModelList
 
 		// Create the base select statement.
 		$query->select('*')
-                ->from($db->quoteName('n8hje_company'));
+                ->from($db->quoteName('#__company'));
 
 		return $query;
 	}

@@ -15,7 +15,7 @@ defined('_JEXEC') or die('Restricted access');
  *
  * @since  0.0.1
  */
-class TwinsViewCompany extends JViewLegacy
+class TwinsViewContact extends JViewLegacy
 {
 	/**
 	 * View form
@@ -71,17 +71,17 @@ class TwinsViewCompany extends JViewLegacy
 
 		if ($isNew)
 		{
-			$title = JText::_('New company');
+			$title = JText::_('New contact');
 		}
 		else
 		{
-			$title = JText::_('Company edit');
+			$title = JText::_('Edit contact');
 		}
 
-		JToolbarHelper::title($title, 'Company details');
-		JToolbarHelper::save('company.save');
+		JToolbarHelper::title($title, 'Contact details');
+		JToolbarHelper::save('contact.save');
 		JToolbarHelper::cancel(
-			'company.cancel',
+			'contact.cancel',
 			$isNew ? 'JTOOLBAR_CANCEL' : 'JTOOLBAR_CLOSE'
 		);
 	}

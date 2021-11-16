@@ -1,6 +1,6 @@
 <?php defined('_JEXEC') or die;
 
-class TwinsModelBlanks extends JModelList
+class TwinsModelContacts extends JModelList
 {
     
     protected function getListQuery()
@@ -11,7 +11,7 @@ class TwinsModelBlanks extends JModelList
 
 		// Create the base select statement.
 		$query->select('*')
-                ->from($db->quoteName('#__blank'));
+                ->from($db->quoteName('#__contact'));
 
 		return $query;
 	}

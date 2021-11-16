@@ -23,6 +23,6 @@ class TwinsTableblank extends JTable
 	 */
 	function __construct($db)
 	{
-		parent::__construct('n8hje_blank', 'id', $db);
+		parent::__construct('#__blank', 'id', $db);
 	}
 }

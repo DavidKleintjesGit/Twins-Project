@@ -14,7 +14,7 @@ defined('_JEXEC') or die('Restricted access');
  *
  * @since  0.0.1
  */
-class TwinsTableCompany extends JTable
+class TwinsTableContact extends JTable
 {
 	/**
 	 * Constructor
@@ -23,6 +23,6 @@ class TwinsTableCompany extends JTable
 	 */
 	function __construct($db)
 	{
-		parent::__construct('#__company', 'id', $db);
+		parent::__construct('#__contact', 'id', $db);
 	}
 }

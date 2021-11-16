@@ -1,6 +1,6 @@
 <?php defined('_JEXEC') or die;
 
-class TwinsViewCompanies extends JViewLegacy
+class TwinsViewContacts extends JViewLegacy
 {
     public $overview;
 /*
@@ -41,9 +41,9 @@ class TwinsViewCompanies extends JViewLegacy
 
     public function addToolbar()
     {
-        JToolbarHelper::title(JText::_('Companies'));
-	JToolbarHelper::addNew('company.add');
-	JToolbarHelper::editList('company.edit');
-	JToolbarHelper::deleteList('Weet je zeker abi?', 'companies.delete');
+        JToolbarHelper::title(JText::_('Contacts'));
+	JToolbarHelper::addNew('contact.add');
+	JToolbarHelper::editList('contact.edit');
+	JToolbarHelper::deleteList('Weet je zeker abi?', 'contacts.delete');
     }
 }	
