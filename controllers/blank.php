@@ -4,7 +4,7 @@ class TwinsControllerBlank extends JControllerForm
 {
 	protected $view_list = "blanks";
 	
-	public function getModel($name = 'Blank', $prefix = 'EngineModel', $config=array('ignore_request' => true))
+	public function getModel($name = 'Blank', $prefix = 'TwinsModel', $config=array('ignore_request' => true))
 	{
 		return parent::getModel($name, $prefix, $config);
 	}
